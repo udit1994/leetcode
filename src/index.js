@@ -1,1 +1,1 @@
-console.log("Hello Javascript.");
+import a from "./AddTwoNumber";

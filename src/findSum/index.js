@@ -4,7 +4,7 @@
  * @return {number[]}
  */
 
-var twoSum = function (nums, target) {
+export default function (nums, target) {
   const cache = {};
   const length = nums.length;
 
@@ -17,4 +17,4 @@ var twoSum = function (nums, target) {
 
     cache[nums[i]] = i;
   }
-};
+}
